@@ -124,3 +124,263 @@ nav ul li a {
     border-radius: 6px;
     transform: scaleX(-1);
 }
+
+
+/* about section  */
+
+#about,
+#offer {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.about-col-right,
+.offer-col-right {
+    flex-basis: 50%;
+}
+
+.about-col-right img,
+.offer-col-right img {
+    width: 100%;
+}
+
+.about-col-left,
+.offer-col-left {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.about-text,
+.offer-text {
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+    direction: rtl;
+}
+
+.about-text h3,
+.offer-text h3 {
+    font-size: 36px;
+}
+
+.about-text p,
+.offer-text p {
+    line-height: 25px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+    color: #777;
+}
+
+.about-text h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.about-text h4 {
+    font-size: 18px;
+    font-style: italic;
+    color: #777;
+    margin-top: 10px;
+}
+
+.features {
+    padding: 50px 0;
+}
+
+.feature-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 80%;
+    margin: auto;
+}
+
+.feature-col img {
+    width: 100px;
+}
+
+.feature-col {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.feature-col h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+
+.feature-col p {
+    font-size: 14px;
+    line-height: 20px;
+    color: #777;
+}
+
+.feature-button {
+    margin: 80px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.feature-button .line {
+    text-align: right;
+    display: inline-block;
+    margin: 20px 25px 60px 0;
+}
+
+#courses {
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.courses-left-col {
+    flex-basis: 50%;
+}
+
+.courses-left-col img {
+    width: 100%
+}
+
+.courses-right-col {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.courses-right-col .course-text {
+    max-width: 350px;
+    display: inline-block;
+    direction: rtl;
+    text-align: right;
+    margin-right: 100px;
+}
+
+.courses-right-col .course-text h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.courses-right-col .course-text p {
+    line-height: 25px;
+    color: #777;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-bottom: 30px;
+}
+
+.course-text button {
+    margin-bottom: 30px;
+}
+
+#offer .offer-col-right img {
+    transform: scaleX(-1);
+}
+
+#offer {
+    padding: 50px 0;
+}
+
+.offer-text h3 {
+    width: 75%;
+}
+
+#contact-us {
+    padding: 50px 0;
+}
+
+.contact-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 30px;
+}
+
+.contact-col-left {
+    flex-basis: 50%;
+}
+
+.contact-col-left img {
+    width: 100%;
+}
+
+.contact-col-right {
+    flex-basis: 50%;
+}
+
+.contact-col-right h3 {
+    text-align: right;
+    margin-right: 100px;
+}
+
+.form {
+    max-width: 100%;
+    margin-right: 100px;
+    margin-top: 30px;
+    direction: rtl;
+    text-align: right;
+}
+
+.input-form-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.signup-form .form-col {
+    flex: 100%;
+    max-width: 80%;
+    margin-left: 12px;
+}
+
+.signup-form input {
+    width: 100%;
+    padding: 12px 10px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #fab3c4;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.contact-col-right h3 {
+    font-size: 36px;
+}
+
+.contact-col-right p {
+    line-height: 25px;
+    direction: rtl;
+    color: #777;
+    font-size: 15px;
+    margin-top: 7px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+}
+
+.signup-form .common-btn {
+    margin-bottom: 20px;
+}
+
+.contact-col-right .line {
+    text-align: right;
+    margin-right: 100px;
+}
+
+#footer {
+    padding: 50px 0 30px;
+}
+
+.footer-container {
+    width: 80%;
+    display: flex;
+}
+
+.footer-container hr {
+    color: #f67c92;
+}
