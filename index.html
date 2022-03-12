@@ -180,25 +180,67 @@
     </scetion>
 
     <section id="footer">
-        <div class="footer-container">
+        <div class="footer-container footer-row">
             <hr>
+            <div class="footer-col-left">
+                <div class="footer-info">
+                    <div class="copywrite-text">
+                        <small>example@yourdomain.com</small><br>
+                        <small>حقوق الاستخدام 2021© إسم شركتك , جميع الحقوق محفوظة.</small>
+                    </div>
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col-right">
+                <div class="footer-links">
+                    <div class="link-title">
+                        <h4>المنتجات</h4>
+                        <small>لوريم إيبسوم </small><br>
+                        <small>لوريم إيبسوم </small>
+                    </div>
+                    <div class="link-title">
+                        <h4>المنتجات</h4>
+                        <small>لوريم إيبسوم </small><br>
+                        <small>لوريم إيبسوم </small>
+                    </div>
+                    <div class="link-title">
+                        <h4>المنتجات</h4>
+                        <small>لوريم إيبسوم </small><br>
+                        <small>لوريم إيبسوم </small>
+                    </div>
+                    <div class="link-title">
+                        <h4>المنتجات</h4>
+                        <small>لوريم إيبسوم </small><br>
+                        <small>لوريم إيبسوم </small>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
+    <div class="social-links">
+        <img src="images/facebook.png" alt="">
+        <img src="images/twitter.png" alt="">
+        <img src="images/instagram.png" alt="">
+        <img src="images/linkedin.png" alt="">
+    </div>
+
 
     <!-- jquery section -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
     <script>
         $(document).ready(function() {
-            $("#menuBtn ").click(function() {
-                if ($("#sideNav ").css("left ") == "-250px ") {
-                    $("#sideNav ").css({
-                        "left ": "0px ",
+            $("#menuBtn").click(function() {
+                if ($("#sideNav").css("left") == "-250px") {
+                    $("#sideNav").css({
+                        "left": "0px",
                     });
                 } else {
-                    $("#sideNav ").css({
-                        "left ": "-250px ",
+                    $("#sideNav").css({
+                        "left": "-250px",
                     });
                 }
             });
